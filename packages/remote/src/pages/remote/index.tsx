@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <h3>Home</h3>
       <br />
-      <Counter />
+
     </main>
   );
 }

@@ -1,14 +1,11 @@
 import Link from "next/link";
+import GridComponent from "./Grid";
 
 export default function Home() {
   return (
-    <ul>
-      <li>
-        <Link href="/remote">Got to Remote</Link>
-      </li>
-      <li>
-        <Link href="/remote/123">Got to Remote 123</Link>
-      </li>
-    </ul>
+    <div style={{ minWidth: '100%', width: '100%' }}>
+      <GridComponent />
+    </div>
+
   );
 }

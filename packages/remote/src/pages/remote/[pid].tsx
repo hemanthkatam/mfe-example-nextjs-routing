@@ -14,9 +14,8 @@ export default function IdPage() {
 
   return (
     <main>
-      <h3>Id: {id}</h3>
+      <h3>Selected Game from host: {id}</h3>
       <br />
-      <button onClick={goToRandom}>Change ID</button>
     </main>
   );
 }

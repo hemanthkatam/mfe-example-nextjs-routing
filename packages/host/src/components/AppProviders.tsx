@@ -10,7 +10,7 @@ export const AppProviders = ({ children }: { children: React.ReactNode }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main style={{ maxWidth: 620, margin: "auto", border: "1px solid red", padding: 20 }}>
-        <h1>Host app</h1>
+
         {children}
       </main>
     </CommunicatorProvider>

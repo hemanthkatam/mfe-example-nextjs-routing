@@ -18,9 +18,9 @@ function RemoteApp(props: RemoteAppProps) {
     return () => props.onUnmount?.();
   }, []);
   return (
-    <AppProviders>
-      <Pages />
-    </AppProviders>
+
+    <Pages />
+
   );
 }
 

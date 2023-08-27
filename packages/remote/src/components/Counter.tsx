@@ -1,12 +1,12 @@
-import { useCounter } from "./CounterProvider";
+// import { useCounter } from "./CounterProvider";
 
 export const Counter = () => {
-  const { counter, increase } = useCounter();
+
   return (
     <div>
-      <div style={{ padding: 20, border: "1px solid gray" }}>{counter}</div>
+      <div style={{ padding: 20, border: "1px solid gray" }}>{2}</div>
       <br />
-      <button onClick={increase}>Increase</button>
+      <button onClick={() => { }}>Increase</button>
     </div>
   )
 }

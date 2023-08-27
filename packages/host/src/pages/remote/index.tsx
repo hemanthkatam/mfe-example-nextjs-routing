@@ -5,11 +5,11 @@ import Link from "next/link";
 export default function RemotePage() {
   return (
     <>
-      <ul>
+      {/* <ul>
         <li>
           <Link href="/">Got back home</Link>
         </li>
-      </ul>
+      </ul> */}
       <ModuleLoader
         url="http://localhost:3000/_next/static/chunks/remoteEntry.js"
         scope="remote"
